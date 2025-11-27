@@ -32,7 +32,7 @@ class TestFlightRepository(unittest.TestCase):
 
     def test_create_and_read(self):
         flight = Flight(None, "Baku", "Istanbul", "2025-11-12 08:00", "2025-11-12 10:00", "AC123")
-        fid = self.repo.create(flight)
+        fid = self.repo.create_flight(flight)  # <- dəyişiklik buradadır
         flights = self.repo.read_all()
         self.assertEqual(len(flights), 1)
         self.assertEqual(flights[0].flight_id, fid)
@@ -40,8 +40,8 @@ class TestFlightRepository(unittest.TestCase):
 
     def test_delete(self):
         flight = Flight(None, "Paris", "London", "2025-11-13 09:00", "2025-11-13 10:30", "AC124")
-        fid = self.repo.create(flight)
-        self.repo.delete(fid)
+        fid = self.repo.create_flight(flight)  # <- dəyişiklik buradadır
+        self.repo.delete_flight(fid)           # <- və burada
         flights = self.repo.read_all()
         for f in flights:
             self.assertNotEqual(f.flight_id, fid)

@@ -176,7 +176,7 @@ def aircraft_menu(aircraft_repo):
         except AlreadyExistsError as e:
             logger.error(e)
 
-# ---------------- Main ----------------
+
 def main():
     conn = SqliteConnection.get_instance()
     conn.init_db()  # bütün table-lar yaradılır

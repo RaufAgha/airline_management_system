@@ -41,11 +41,10 @@ class TestTicketRepository(unittest.TestCase):
             ticket_id INTEGER PRIMARY KEY AUTOINCREMENT,
             flight_id INTEGER NOT NULL,
             passenger_id INTEGER NOT NULL,
-            seat_number TEXT,
-            FOREIGN KEY(flight_id) REFERENCES flights(flight_id),
-            FOREIGN KEY(passenger_id) REFERENCES passengers(passenger_id)
+            seat_number TEXT NOT NULL,
+            price REAL NOT NULL
         )
-        """)
+            """)
         cls.conn.commit()
 
         # Test üçün Flight və Passenger əlavə edirik
@@ -56,17 +55,17 @@ class TestTicketRepository(unittest.TestCase):
         cls.conn.commit()
 
     def test_create_and_read(self):
-        ticket = Ticket(None, self.flight_id, self.passenger_id, "12A")
-        tid = self.repo.create(ticket)
+        ticket = Ticket(None, self.flight_id, self.passenger_id, "12A", 100.0)
+        tid = self.repo.create_ticket(ticket)  # <- dəyişiklik
         tickets = self.repo.read_all()
         self.assertEqual(len(tickets), 1)
         self.assertEqual(tickets[0].ticket_id, tid)
         self.assertEqual(tickets[0].seat_number, "12A")
 
     def test_delete(self):
-        ticket = Ticket(None, self.flight_id, self.passenger_id, "14B")
-        tid = self.repo.create(ticket)
-        self.repo.delete(tid)
+        ticket = Ticket(None, self.flight_id, self.passenger_id, "14B", 120.0)
+        tid = self.repo.create_ticket(ticket)  # <- dəyişiklik
+        self.repo.delete_ticket(tid)           # <- dəyişiklik
         tickets = self.repo.read_all()
         for t in tickets:
             self.assertNotEqual(t.ticket_id, tid)
