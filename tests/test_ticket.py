@@ -56,7 +56,7 @@ class TestTicketRepository(unittest.TestCase):
 
     def test_create_and_read(self):
         ticket = Ticket(None, self.flight_id, self.passenger_id, "12A", 100.0)
-        tid = self.repo.create_ticket(ticket)  # <- dəyişiklik
+        tid = self.repo.create_ticket(ticket)  
         tickets = self.repo.read_all()
         self.assertEqual(len(tickets), 1)
         self.assertEqual(tickets[0].ticket_id, tid)
@@ -64,8 +64,8 @@ class TestTicketRepository(unittest.TestCase):
 
     def test_delete(self):
         ticket = Ticket(None, self.flight_id, self.passenger_id, "14B", 120.0)
-        tid = self.repo.create_ticket(ticket)  # <- dəyişiklik
-        self.repo.delete_ticket(tid)           # <- dəyişiklik
+        tid = self.repo.create_ticket(ticket)  
+        self.repo.delete_ticket(tid)          
         tickets = self.repo.read_all()
         for t in tickets:
             self.assertNotEqual(t.ticket_id, tid)
