@@ -1,0 +1,628 @@
+2025-11-28 21:01:31,268 - INFO - Application started successfully.
+2025-11-28 21:01:31,268 - INFO - --- Airline Ticket Management ---
+2025-11-28 21:01:37,367 - INFO - --- Flight Management ---
+2025-11-28 21:02:08,702 - INFO - Application started successfully.
+2025-11-28 21:02:08,704 - INFO - --- Airline Ticket Management ---
+2025-11-28 21:02:11,388 - INFO - --- Ticket Management ---
+2025-11-28 21:06:31,422 - INFO - Application started successfully.
+2025-11-28 21:06:31,423 - INFO - --- Airline Ticket Management ---
+2025-11-28 21:06:41,432 - INFO - --- Ticket Management ---
+2025-11-28 21:09:24,906 - INFO - Application started successfully.
+2025-11-28 21:09:24,906 - INFO - --- Airline Ticket Management ---
+2025-11-28 21:09:26,676 - INFO - --- Ticket Management ---
+2025-12-01 13:19:59,946 - INFO - Application started successfully.
+2025-12-01 13:19:59,947 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:20:05,468 - INFO - --- Ticket Management ---
+2025-12-01 13:24:22,673 - INFO - Application started successfully.
+2025-12-01 13:24:22,673 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:28:28,796 - INFO - --- Ticket Management ---
+2025-12-01 13:28:32,573 - INFO - --- Ticket Management ---
+2025-12-01 13:29:57,284 - INFO - --- Ticket Management ---
+2025-12-01 13:38:22,488 - INFO - Application started successfully.
+2025-12-01 13:38:22,488 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:38:25,292 - INFO - --- Flight Management ---
+2025-12-01 13:38:56,372 - INFO - Application started successfully.
+2025-12-01 13:38:56,372 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:38:58,399 - INFO - --- Flight Management ---
+2025-12-01 13:39:01,683 - ERROR - ❌ Flight ID does not exist!
+2025-12-01 13:39:01,684 - INFO - --- Flight Management ---
+2025-12-01 13:39:08,332 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:39:09,859 - INFO - --- Passenger Management ---
+2025-12-01 13:39:15,038 - ERROR - ❌ Passenger ID does not exist!
+2025-12-01 13:39:15,039 - INFO - --- Passenger Management ---
+2025-12-01 13:39:21,177 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:39:23,019 - INFO - --- Ticket Management ---
+2025-12-01 13:39:26,652 - ERROR - ❌ Flight ID does not exist!
+2025-12-01 13:39:26,652 - INFO - --- Ticket Management ---
+2025-12-01 13:39:30,923 - ERROR - ❌ Flight ID does not exist!
+2025-12-01 13:39:30,923 - INFO - --- Ticket Management ---
+2025-12-01 13:39:38,877 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:39:40,510 - INFO - --- Flight Management ---
+2025-12-01 13:40:05,409 - ERROR - ❌ Aircraft ID does not exist!
+2025-12-01 13:40:05,409 - INFO - --- Flight Management ---
+2025-12-01 13:40:14,079 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:40:16,298 - INFO - --- Aircraft Management ---
+2025-12-01 13:40:24,514 - INFO - Aircraft added with ID 1
+2025-12-01 13:40:24,514 - INFO - --- Aircraft Management ---
+2025-12-01 13:41:03,260 - INFO - Aircraft added with ID 2
+2025-12-01 13:41:03,260 - INFO - --- Aircraft Management ---
+2025-12-01 13:41:05,461 - INFO - ID: 1, Model: Business, Capacity: 200
+2025-12-01 13:41:05,461 - INFO - ID: 2, Model: Special, Capacity: 100
+2025-12-01 13:41:05,462 - INFO - --- Aircraft Management ---
+2025-12-01 13:41:42,114 - INFO - Application started successfully.
+2025-12-01 13:41:42,114 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:41:49,369 - INFO - --- Aircraft Management ---
+2025-12-01 13:41:55,581 - ERROR - ❌ Aircraft ID does not exist!
+2025-12-01 13:41:55,581 - INFO - --- Aircraft Management ---
+2025-12-01 13:42:02,863 - INFO - ID: 1, Model: Business, Capacity: 200
+2025-12-01 13:42:02,864 - INFO - ID: 2, Model: Special, Capacity: 100
+2025-12-01 13:42:02,864 - INFO - --- Aircraft Management ---
+2025-12-01 13:42:21,670 - ERROR - ❌ Aircraft ID does not exist!
+2025-12-01 13:42:21,670 - INFO - --- Aircraft Management ---
+2025-12-01 13:50:11,497 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:50:13,156 - INFO - Application exiting...
+2025-12-01 13:50:18,403 - INFO - Application started successfully.
+2025-12-01 13:50:18,403 - INFO - __main__ - Application started successfully.
+2025-12-01 13:50:18,403 - INFO - __main__ - Application started successfully.
+2025-12-01 13:50:18,403 - INFO - __main__ - Application started successfully.
+2025-12-01 13:50:18,403 - INFO - __main__ - Application started successfully.
+2025-12-01 13:50:18,404 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:50:18,404 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:50:18,404 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:50:18,404 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:50:18,404 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:50:22,572 - INFO - --- Ticket Management ---
+2025-12-01 13:50:22,572 - INFO - __main__ - --- Ticket Management ---
+2025-12-01 13:50:22,572 - INFO - __main__ - --- Ticket Management ---
+2025-12-01 13:50:22,572 - INFO - __main__ - --- Ticket Management ---
+2025-12-01 13:50:22,572 - INFO - __main__ - --- Ticket Management ---
+2025-12-01 13:50:27,065 - ERROR - ❌ Flight ID does not exist!
+2025-12-01 13:50:27,065 - ERROR - __main__ - ❌ Flight ID does not exist!
+2025-12-01 13:50:27,065 - ERROR - __main__ - ❌ Flight ID does not exist!
+2025-12-01 13:50:27,065 - ERROR - __main__ - ❌ Flight ID does not exist!
+2025-12-01 13:50:27,065 - ERROR - __main__ - ❌ Flight ID does not exist!
+2025-12-01 13:50:27,066 - INFO - --- Ticket Management ---
+2025-12-01 13:50:27,066 - INFO - __main__ - --- Ticket Management ---
+2025-12-01 13:50:27,066 - INFO - __main__ - --- Ticket Management ---
+2025-12-01 13:50:27,066 - INFO - __main__ - --- Ticket Management ---
+2025-12-01 13:50:27,066 - INFO - __main__ - --- Ticket Management ---
+2025-12-01 13:50:34,277 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:50:34,277 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:50:34,277 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:50:34,277 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:50:34,277 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:50:36,490 - INFO - --- Flight Management ---
+2025-12-01 13:50:36,490 - INFO - __main__ - --- Flight Management ---
+2025-12-01 13:50:36,490 - INFO - __main__ - --- Flight Management ---
+2025-12-01 13:50:36,490 - INFO - __main__ - --- Flight Management ---
+2025-12-01 13:50:36,490 - INFO - __main__ - --- Flight Management ---
+2025-12-01 13:50:37,669 - INFO - No flights found.
+2025-12-01 13:50:37,669 - INFO - __main__ - No flights found.
+2025-12-01 13:50:37,669 - INFO - __main__ - No flights found.
+2025-12-01 13:50:37,669 - INFO - __main__ - No flights found.
+2025-12-01 13:50:37,669 - INFO - __main__ - No flights found.
+2025-12-01 13:50:37,669 - INFO - --- Flight Management ---
+2025-12-01 13:50:37,669 - INFO - __main__ - --- Flight Management ---
+2025-12-01 13:50:37,669 - INFO - __main__ - --- Flight Management ---
+2025-12-01 13:50:37,669 - INFO - __main__ - --- Flight Management ---
+2025-12-01 13:50:37,669 - INFO - __main__ - --- Flight Management ---
+2025-12-01 13:56:24,101 - INFO - Application started successfully.
+2025-12-01 13:56:24,101 - INFO - __main__ - Application started successfully.
+2025-12-01 13:56:24,101 - INFO - __main__ - Application started successfully.
+2025-12-01 13:56:24,101 - INFO - __main__ - Application started successfully.
+2025-12-01 13:56:24,101 - INFO - __main__ - Application started successfully.
+2025-12-01 13:56:24,102 - INFO - --- Airline Ticket Management ---
+2025-12-01 13:56:24,102 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:56:24,102 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:56:24,102 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:56:24,102 - INFO - __main__ - --- Airline Ticket Management ---
+2025-12-01 13:56:26,956 - INFO - --- Aircraft Management ---
+2025-12-01 13:56:26,956 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:26,956 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:26,956 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:26,956 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:34,952 - ERROR - Aircraft with ID 1 already exists.
+2025-12-01 13:56:34,952 - ERROR - __main__ - Aircraft with ID 1 already exists.
+2025-12-01 13:56:34,952 - ERROR - __main__ - Aircraft with ID 1 already exists.
+2025-12-01 13:56:34,952 - ERROR - __main__ - Aircraft with ID 1 already exists.
+2025-12-01 13:56:34,952 - ERROR - __main__ - Aircraft with ID 1 already exists.
+2025-12-01 13:56:34,954 - INFO - --- Aircraft Management ---
+2025-12-01 13:56:34,954 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:34,954 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:34,954 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:34,954 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:37,085 - INFO - ID: 1, Model: Business, Capacity: 200
+2025-12-01 13:56:37,085 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 13:56:37,085 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 13:56:37,085 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 13:56:37,085 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 13:56:37,087 - INFO - ID: 2, Model: Special, Capacity: 100
+2025-12-01 13:56:37,087 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 13:56:37,087 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 13:56:37,087 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 13:56:37,087 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 13:56:37,087 - INFO - --- Aircraft Management ---
+2025-12-01 13:56:37,087 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:37,087 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:37,087 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 13:56:37,087 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:00:00,099 - INFO - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:00:00,099 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:00:00,099 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:00:00,099 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:00:00,099 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:00:00,100 - INFO - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:00:00,100 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:00:00,100 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:00:00,100 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:00:00,100 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:00:00,101 - INFO - --- Aircraft Management ---
+2025-12-01 14:00:00,101 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:00:00,101 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:00:00,101 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:00:00,101 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:00:16,040 - INFO - src.repositories.base_repository - Aircraf created with ID 3
+2025-12-01 14:00:16,040 - INFO - src.repositories.base_repository - Aircraf created with ID 3
+2025-12-01 14:00:16,040 - INFO - src.repositories.base_repository - Aircraf created with ID 3
+2025-12-01 14:00:16,040 - INFO - src.repositories.base_repository - Aircraf created with ID 3
+2025-12-01 14:00:16,044 - INFO - Aircraft added with ID 3
+2025-12-01 14:00:16,044 - INFO - __main__ - Aircraft added with ID 3
+2025-12-01 14:00:16,044 - INFO - __main__ - Aircraft added with ID 3
+2025-12-01 14:00:16,044 - INFO - __main__ - Aircraft added with ID 3
+2025-12-01 14:00:16,044 - INFO - __main__ - Aircraft added with ID 3
+2025-12-01 14:00:16,047 - INFO - --- Aircraft Management ---
+2025-12-01 14:00:16,047 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:00:16,047 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:00:16,047 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:00:16,047 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:01:27,959 - INFO - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:01:27,959 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:01:27,959 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:01:27,959 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:01:27,959 - INFO - __main__ - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:01:27,959 - INFO - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:01:27,959 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:01:27,959 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:01:27,959 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:01:27,959 - INFO - __main__ - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:01:27,960 - INFO - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:01:27,960 - INFO - __main__ - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:01:27,960 - INFO - __main__ - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:01:27,960 - INFO - __main__ - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:01:27,960 - INFO - __main__ - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:01:27,960 - INFO - --- Aircraft Management ---
+2025-12-01 14:01:27,960 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:01:27,960 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:01:27,960 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:01:27,960 - INFO - __main__ - --- Aircraft Management ---
+2025-12-01 14:06:30,537 - INFO - Application started successfully.
+2025-12-01 14:06:30,538 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:06:32,788 - INFO - --- Flight Management ---
+2025-12-01 14:06:34,280 - INFO - No flights found.
+2025-12-01 14:06:34,281 - INFO - --- Flight Management ---
+2025-12-01 14:06:47,750 - INFO - Flight added with ID 1
+2025-12-01 14:06:47,750 - INFO - --- Flight Management ---
+2025-12-01 14:06:51,160 - INFO - ID: 1, Bku->ehae, 4124345415-241352351351, Aircraft: 1
+2025-12-01 14:06:51,160 - INFO - --- Flight Management ---
+2025-12-01 14:06:54,800 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:06:56,811 - INFO - --- Aircraft Management ---
+2025-12-01 14:06:58,665 - INFO - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:06:58,665 - INFO - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:06:58,665 - INFO - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:06:58,665 - INFO - --- Aircraft Management ---
+2025-12-01 14:07:02,108 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:07:04,464 - INFO - --- Passenger Management ---
+2025-12-01 14:07:16,681 - INFO - Passenger added with ID 1
+2025-12-01 14:07:16,681 - INFO - --- Passenger Management ---
+2025-12-01 14:07:21,966 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-01 14:07:21,966 - INFO - --- Passenger Management ---
+2025-12-01 14:27:18,531 - INFO - Application started successfully.
+2025-12-01 14:27:18,531 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:27:20,976 - INFO - --- Flight Management ---
+2025-12-01 14:27:22,215 - INFO - ID: 1, Bku->ehae, 4124345415-241352351351, Aircraft: 1
+2025-12-01 14:27:22,215 - INFO - --- Flight Management ---
+2025-12-01 14:27:24,671 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:27:27,586 - INFO - --- Passenger Management ---
+2025-12-01 14:27:28,739 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-01 14:27:28,739 - INFO - --- Passenger Management ---
+2025-12-01 14:27:30,971 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:27:31,837 - INFO - --- Flight Management ---
+2025-12-01 14:27:32,629 - INFO - ID: 1, Bku->ehae, 4124345415-241352351351, Aircraft: 1
+2025-12-01 14:27:32,629 - INFO - --- Flight Management ---
+2025-12-01 14:27:34,983 - WARNING - Invalid option!
+2025-12-01 14:27:34,983 - INFO - --- Flight Management ---
+2025-12-01 14:27:35,759 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:27:37,783 - INFO - --- Aircraft Management ---
+2025-12-01 14:27:38,999 - INFO - ID: 1, Model: Business, Capacity: 200
+2025-12-01 14:27:38,999 - INFO - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:27:39,000 - INFO - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:27:39,000 - INFO - --- Aircraft Management ---
+2025-12-01 14:27:45,191 - INFO - Aircraft 1 deleted
+2025-12-01 14:27:45,191 - INFO - --- Aircraft Management ---
+2025-12-01 14:27:47,710 - INFO - ID: 2, Model: Special, Capacity: 100
+2025-12-01 14:27:47,710 - INFO - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:27:47,710 - INFO - --- Aircraft Management ---
+2025-12-01 14:28:08,169 - ERROR - Aircraft with ID 2 already exists.
+2025-12-01 14:28:08,169 - INFO - --- Aircraft Management ---
+2025-12-01 14:31:13,813 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:31:14,221 - INFO - Application exiting...
+2025-12-01 14:31:18,386 - INFO - Application started successfully.
+2025-12-01 14:31:18,386 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:31:20,571 - INFO - --- Flight Management ---
+2025-12-01 14:31:21,636 - INFO - ID: 1, Bku->ehae, 4124345415-241352351351, Aircraft: 1
+2025-12-01 14:31:21,636 - INFO - --- Flight Management ---
+2025-12-01 14:31:23,551 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:31:26,237 - INFO - --- Aircraft Management ---
+2025-12-01 14:31:30,682 - INFO - Aircraft 2 deleted
+2025-12-01 14:31:30,682 - INFO - --- Aircraft Management ---
+2025-12-01 14:31:36,611 - INFO - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:31:36,611 - INFO - --- Aircraft Management ---
+2025-12-01 14:31:49,290 - ERROR - Aircraft with ID 3 already exists.
+2025-12-01 14:31:49,291 - INFO - --- Aircraft Management ---
+2025-12-01 14:33:18,240 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:33:19,358 - INFO - Application exiting...
+2025-12-01 14:33:30,906 - INFO - Application started successfully.
+2025-12-01 14:33:30,907 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:33:33,319 - INFO - --- Flight Management ---
+2025-12-01 14:33:34,492 - INFO - ID: 1, Bku->ehae, 4124345415-241352351351, Aircraft: 1
+2025-12-01 14:33:34,492 - INFO - --- Flight Management ---
+2025-12-01 14:33:45,659 - ERROR - ❌ Aircraft ID does not exist!
+2025-12-01 14:33:45,659 - INFO - --- Flight Management ---
+2025-12-01 14:33:52,308 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:33:53,637 - INFO - --- Aircraft Management ---
+2025-12-01 14:34:02,617 - ERROR - Aircraft with ID 3 already exists.
+2025-12-01 14:34:02,617 - INFO - --- Aircraft Management ---
+2025-12-01 14:34:21,954 - INFO - Aircraft added with ID 1
+2025-12-01 14:34:21,954 - INFO - --- Aircraft Management ---
+2025-12-01 14:34:28,071 - INFO - Aircraft 1 deleted
+2025-12-01 14:34:28,072 - INFO - --- Aircraft Management ---
+2025-12-01 14:34:38,648 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:34:42,218 - INFO - --- Ticket Management ---
+2025-12-01 14:34:54,930 - ERROR - Invalid input type.
+2025-12-01 14:34:54,930 - INFO - --- Ticket Management ---
+2025-12-01 14:35:39,310 - ERROR - Passenger ID 2 not found!
+2025-12-01 14:35:39,310 - INFO - --- Ticket Management ---
+2025-12-01 14:36:43,935 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:36:45,039 - INFO - Application exiting...
+2025-12-01 14:37:48,329 - INFO - Application started successfully.
+2025-12-01 14:37:48,329 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:37:51,893 - INFO - --- Aircraft Management ---
+2025-12-01 14:38:02,341 - INFO - Aircraft added with ID 1
+2025-12-01 14:38:02,342 - INFO - --- Aircraft Management ---
+2025-12-01 14:38:06,006 - INFO - ID: 3, Model: special, Capacity: 50
+2025-12-01 14:38:06,006 - INFO - ID: 1, Model: business, Capacity: 52
+2025-12-01 14:38:06,007 - INFO - --- Aircraft Management ---
+2025-12-01 14:38:12,308 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:38:15,315 - INFO - --- Flight Management ---
+2025-12-01 14:38:24,864 - ERROR - ❌ Aircraft ID does not exist!
+2025-12-01 14:38:24,864 - INFO - --- Flight Management ---
+2025-12-01 14:38:30,715 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:38:32,807 - INFO - Application exiting...
+2025-12-01 14:38:50,198 - INFO - Application started successfully.
+2025-12-01 14:38:50,198 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:38:54,854 - INFO - --- Passenger Management ---
+2025-12-01 14:38:55,002 - WARNING - Invalid option!
+2025-12-01 14:38:55,002 - INFO - --- Passenger Management ---
+2025-12-01 14:38:55,042 - WARNING - Invalid option!
+2025-12-01 14:38:55,042 - INFO - --- Passenger Management ---
+2025-12-01 14:39:08,097 - INFO - Passenger added with ID 2
+2025-12-01 14:39:08,097 - INFO - --- Passenger Management ---
+2025-12-01 14:39:11,763 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-01 14:39:11,763 - INFO - ID: 2, Name: Rauf, Email: Aaashvshety, Phone: 656227
+2025-12-01 14:39:11,763 - INFO - --- Passenger Management ---
+2025-12-01 14:39:18,044 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:39:22,788 - INFO - --- Ticket Management ---
+2025-12-01 14:48:07,810 - ERROR - Invalid input type.
+2025-12-01 14:48:07,810 - INFO - --- Ticket Management ---
+2025-12-01 14:48:09,719 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:48:12,945 - INFO - Application exiting...
+2025-12-01 14:48:17,193 - INFO - Application started successfully.
+2025-12-01 14:48:17,195 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:48:22,183 - INFO - --- Ticket Management ---
+2025-12-01 14:48:30,048 - ERROR - Passenger ID 14124 not found!
+2025-12-01 14:48:30,049 - INFO - --- Ticket Management ---
+2025-12-01 14:49:50,416 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:49:52,878 - INFO - --- Ticket Management ---
+2025-12-01 14:50:01,717 - ERROR - Passenger ID 241324 not found!
+2025-12-01 14:50:01,717 - INFO - --- Ticket Management ---
+2025-12-01 14:50:04,826 - INFO - No tickets found.
+2025-12-01 14:50:04,826 - INFO - --- Ticket Management ---
+2025-12-01 14:50:09,843 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:50:11,223 - INFO - Application exiting...
+2025-12-01 14:50:15,886 - INFO - Application started successfully.
+2025-12-01 14:50:15,886 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:50:18,388 - INFO - --- Ticket Management ---
+2025-12-01 14:53:37,958 - ERROR - Passenger ID 545 not found!
+2025-12-01 14:53:37,958 - INFO - --- Ticket Management ---
+2025-12-01 14:53:40,639 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:53:41,841 - INFO - Application exiting...
+2025-12-01 14:53:46,907 - INFO - Application started successfully.
+2025-12-01 14:53:46,908 - INFO - --- Airline Ticket Management ---
+2025-12-01 14:53:50,427 - INFO - --- Ticket Management ---
+2025-12-01 14:54:00,821 - ERROR - Flight ID 24343 does not exist!
+2025-12-01 14:54:00,821 - INFO - --- Ticket Management ---
+2025-12-01 15:02:11,100 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:02:12,486 - INFO - Application exiting...
+2025-12-01 15:02:18,447 - INFO - Application started successfully.
+2025-12-01 15:02:18,448 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:02:22,677 - INFO - --- Flight Management ---
+2025-12-01 15:02:24,274 - INFO - ID: 1, Bku->ehae, 4124345415-241352351351, Aircraft: 1
+2025-12-01 15:02:24,274 - INFO - --- Flight Management ---
+2025-12-01 15:02:26,571 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:02:29,430 - INFO - --- Ticket Management ---
+2025-12-01 15:02:39,150 - ERROR - Passengers with ID 2143225 not found!
+2025-12-01 15:02:39,150 - INFO - --- Ticket Management ---
+2025-12-01 15:04:33,646 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:04:35,170 - INFO - Application exiting...
+2025-12-01 15:04:41,280 - INFO - Application started successfully.
+2025-12-01 15:04:41,280 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:04:43,534 - INFO - --- Flight Management ---
+2025-12-01 15:04:56,151 - INFO - Flight added with ID 2
+2025-12-01 15:04:56,151 - INFO - --- Flight Management ---
+2025-12-01 15:05:03,320 - INFO - ID: 1, Bku->ehae, 4124345415-241352351351, Aircraft: 1
+2025-12-01 15:05:03,320 - INFO - ID: 2, sdfhjk->sdfghuj, '1234567-12345678, Aircraft: 1
+2025-12-01 15:05:03,320 - INFO - --- Flight Management ---
+2025-12-01 15:05:13,449 - INFO - Flight 2 deleted
+2025-12-01 15:05:13,450 - INFO - --- Flight Management ---
+2025-12-01 15:05:16,970 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:05:20,355 - INFO - --- Passenger Management ---
+2025-12-01 15:05:27,516 - INFO - Passenger added with ID 3
+2025-12-01 15:05:27,516 - INFO - --- Passenger Management ---
+2025-12-01 15:05:31,450 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-01 15:05:31,450 - INFO - ID: 2, Name: Rauf, Email: Aaashvshety, Phone: 656227
+2025-12-01 15:05:31,450 - INFO - ID: 3, Name: dfgjfds, Email: uytsd, Phone: hgfdsadert678
+2025-12-01 15:05:31,451 - INFO - --- Passenger Management ---
+2025-12-01 15:05:36,755 - INFO - Passenger 3 deleted
+2025-12-01 15:05:36,755 - INFO - --- Passenger Management ---
+2025-12-01 15:05:41,149 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:05:44,513 - INFO - --- Aircraft Management ---
+2025-12-01 15:05:59,806 - INFO - Aircraft added with ID 12435
+2025-12-01 15:05:59,806 - INFO - --- Aircraft Management ---
+2025-12-01 15:06:04,668 - INFO - ID: 3, Model: special, Capacity: 50
+2025-12-01 15:06:04,668 - INFO - ID: 1, Model: business, Capacity: 52
+2025-12-01 15:06:04,668 - INFO - ID: 12435, Model: awesrdtfy, Capacity: 123456
+2025-12-01 15:06:04,668 - INFO - --- Aircraft Management ---
+2025-12-01 15:06:13,768 - ERROR - Aircraft with ID 12345 not found!
+2025-12-01 15:06:13,768 - INFO - --- Aircraft Management ---
+2025-12-01 15:06:17,087 - INFO - ID: 3, Model: special, Capacity: 50
+2025-12-01 15:06:17,087 - INFO - ID: 1, Model: business, Capacity: 52
+2025-12-01 15:06:17,087 - INFO - ID: 12435, Model: awesrdtfy, Capacity: 123456
+2025-12-01 15:06:17,087 - INFO - --- Aircraft Management ---
+2025-12-01 15:06:23,102 - INFO - Aircraft 12435 deleted
+2025-12-01 15:06:23,102 - INFO - --- Aircraft Management ---
+2025-12-01 15:06:25,784 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:06:28,788 - INFO - --- Ticket Management ---
+2025-12-01 15:07:16,320 - INFO - Ticket added with ID 1
+2025-12-01 15:07:16,321 - INFO - --- Ticket Management ---
+2025-12-01 15:07:18,923 - INFO - ID: 1, Flight: 1, Passenger: 1, Seat: 1234, Price: 123.0
+2025-12-01 15:07:18,924 - INFO - --- Ticket Management ---
+2025-12-01 15:07:39,885 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:12:11,809 - INFO - Application exiting...
+2025-12-01 15:12:16,408 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:12:19,388 - INFO - --- Flight Management ---
+2025-12-01 15:12:26,136 - INFO - Flight added with ID 3
+2025-12-01 15:12:26,136 - INFO - --- Flight Management ---
+2025-12-01 15:12:29,136 - INFO - ID: 1, Bku->ehae, 4124345415-241352351351, Aircraft: 1, Tickets sold: 0
+2025-12-01 15:12:29,136 - INFO - ID: 3, frwg->wrfser, fsergrt-aregsrt, Aircraft: 1, Tickets sold: 0
+2025-12-01 15:12:29,136 - INFO - --- Flight Management ---
+2025-12-01 15:14:55,225 - ERROR - Aircraft ID 2 not found!
+2025-12-01 15:14:55,225 - INFO - --- Flight Management ---
+2025-12-01 15:15:44,349 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:15:45,831 - INFO - --- Aircraft Management ---
+2025-12-01 15:15:47,710 - INFO - ID: 3, Model: special, Capacity: 50, Passengers: 0
+2025-12-01 15:15:47,710 - INFO - ID: 1, Model: business, Capacity: 52, Passengers: 0
+2025-12-01 15:15:47,710 - INFO - --- Aircraft Management ---
+2025-12-01 15:15:57,122 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:15:59,019 - INFO - --- Passenger Management ---
+2025-12-01 15:16:02,698 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-01 15:16:02,698 - INFO - ID: 2, Name: Rauf, Email: Aaashvshety, Phone: 656227
+2025-12-01 15:16:02,699 - INFO - --- Passenger Management ---
+2025-12-01 15:16:14,565 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:16:16,554 - INFO - --- Ticket Management ---
+2025-12-01 15:16:27,155 - INFO - Ticket added with ID 2
+2025-12-01 15:16:27,155 - INFO - --- Ticket Management ---
+2025-12-01 15:16:32,605 - INFO - --- Airline Ticket Management ---
+2025-12-01 15:16:35,026 - INFO - --- Aircraft Management ---
+2025-12-01 15:16:37,177 - INFO - ID: 3, Model: special, Capacity: 50, Passengers: 0
+2025-12-01 15:16:37,177 - INFO - ID: 1, Model: business, Capacity: 52, Passengers: 0
+2025-12-01 15:16:37,178 - INFO - --- Aircraft Management ---
+2025-12-06 18:06:24,295 - INFO - --- Airline Management ---
+2025-12-06 18:06:27,841 - INFO - --- Aircraft Management ---
+2025-12-06 18:06:42,416 - ERROR - Aircraft ID 1 already exists!
+2025-12-06 18:06:42,417 - INFO - --- Aircraft Management ---
+2025-12-06 18:06:55,765 - ERROR - Aircraft ID 13231 not found!
+2025-12-06 18:06:55,766 - INFO - --- Aircraft Management ---
+2025-12-06 18:11:42,422 - INFO - --- Airline Management ---
+2025-12-06 18:11:49,954 - INFO - --- Aircraft Management ---
+2025-12-06 18:12:05,765 - INFO - Passenger added. Current passengers: 1
+2025-12-06 18:12:05,765 - INFO - --- Aircraft Management ---
+2025-12-06 18:12:15,759 - INFO - --- Airline Management ---
+2025-12-06 18:12:17,117 - INFO - --- Ticket Management ---
+2025-12-06 18:12:25,232 - ERROR - Passenger ID 123423 not found!
+2025-12-06 18:12:25,232 - INFO - --- Ticket Management ---
+2025-12-06 18:12:33,590 - ERROR - Seat 1 already booked for flight 1
+2025-12-06 18:12:33,591 - INFO - --- Ticket Management ---
+2025-12-06 18:14:30,067 - INFO - Ticket 1 deleted
+2025-12-06 18:14:30,067 - INFO - --- Ticket Management ---
+2025-12-06 18:14:33,533 - INFO - --- Airline Management ---
+2025-12-06 18:14:34,837 - INFO - Exiting...
+2025-12-06 18:14:42,200 - INFO - --- Airline Management ---
+2025-12-06 18:14:45,334 - INFO - --- Passenger Management ---
+2025-12-06 18:14:51,086 - INFO - Passenger added with ID 4
+2025-12-06 18:14:51,086 - INFO - --- Passenger Management ---
+2025-12-06 18:15:33,795 - WARNING - Invalid option!
+2025-12-06 18:15:33,795 - INFO - --- Passenger Management ---
+2025-12-06 18:15:38,331 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-06 18:15:38,332 - INFO - ID: 2, Name: Rauf, Email: Aaashvshety, Phone: 656227
+2025-12-06 18:15:38,332 - INFO - ID: 4, Name: ftfw, Email: ragwtr, Phone: ertwgr
+2025-12-06 18:15:38,332 - INFO - --- Passenger Management ---
+2025-12-06 19:08:03,388 - INFO - --- Airline Management ---
+2025-12-06 19:08:06,369 - INFO - --- Passenger Management ---
+2025-12-06 19:08:13,596 - INFO - Passenger added with ID 5
+2025-12-06 19:08:13,596 - INFO - --- Passenger Management ---
+2025-12-06 19:08:16,741 - INFO - --- Airline Management ---
+2025-12-06 19:08:18,062 - INFO - --- Ticket Management ---
+2025-12-06 19:08:21,481 - ERROR - Invalid input type!
+2025-12-06 19:08:21,481 - INFO - --- Ticket Management ---
+2025-12-06 19:13:17,470 - ERROR - Invalid input type!
+2025-12-06 19:13:17,471 - INFO - --- Ticket Management ---
+2025-12-07 18:44:27,953 - INFO - --- Airline Management ---
+2025-12-07 18:44:31,042 - INFO - --- Ticket Management ---
+2025-12-07 18:44:37,123 - ERROR - Invalid input type!
+2025-12-07 18:44:37,123 - INFO - --- Ticket Management ---
+2025-12-07 18:44:45,424 - ERROR - Passenger ID 1234 not found!
+2025-12-07 18:44:45,424 - INFO - --- Ticket Management ---
+2025-12-07 19:35:54,104 - INFO - --- Airline Management ---
+2025-12-07 19:35:56,347 - INFO - --- Passenger Management ---
+2025-12-07 19:36:03,076 - INFO - Passenger added with ID 6
+2025-12-07 19:36:03,076 - INFO - --- Passenger Management ---
+2025-12-07 19:36:10,202 - INFO - Passenger 7 deleted
+2025-12-07 19:36:10,203 - INFO - --- Passenger Management ---
+2025-12-07 19:36:13,582 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-07 19:36:13,583 - INFO - ID: 2, Name: Rauf, Email: Aaashvshety, Phone: 656227
+2025-12-07 19:36:13,583 - INFO - ID: 4, Name: ftfw, Email: ragwtr, Phone: ertwgr
+2025-12-07 19:36:13,583 - INFO - ID: 5, Name: 4ertqgt, Email: wg5w5, Phone: wg5
+2025-12-07 19:36:13,583 - INFO - ID: 6, Name: Rayf, Email: Afadffgsgh, Phone: wrssdth
+2025-12-07 19:36:13,584 - INFO - --- Passenger Management ---
+2025-12-07 19:36:21,086 - INFO - Passenger 7 deleted
+2025-12-07 19:36:21,087 - INFO - --- Passenger Management ---
+2025-12-07 19:36:46,952 - INFO - --- Airline Management ---
+2025-12-07 19:36:48,123 - INFO - Exiting...
+2025-12-07 19:36:54,790 - INFO - --- Airline Management ---
+2025-12-07 19:36:56,278 - INFO - --- Passenger Management ---
+2025-12-07 20:37:41,531 - INFO - --- Airline Management ---
+2025-12-07 20:37:43,988 - INFO - --- Aircraft Management ---
+2025-12-07 20:37:51,702 - ERROR - Aircraft ID 1 already exists!
+2025-12-07 20:37:51,702 - INFO - --- Aircraft Management ---
+2025-12-07 20:37:54,884 - INFO - --- Airline Management ---
+2025-12-07 20:37:56,191 - INFO - --- Ticket Management ---
+2025-12-07 20:38:00,176 - ERROR - Invalid input type!
+2025-12-07 20:38:00,177 - INFO - --- Ticket Management ---
+2025-12-07 20:38:40,683 - INFO - --- Airline Management ---
+2025-12-07 20:38:48,472 - INFO - --- Ticket Management ---
+2025-12-07 20:38:51,993 - ERROR - Ticket ID 1 not found!
+2025-12-07 20:38:51,993 - INFO - --- Ticket Management ---
+2025-12-07 20:38:56,635 - INFO - ID: 2, Flight: 1, Passenger: 1, Seat: 1
+2025-12-07 20:38:56,636 - INFO - --- Ticket Management ---
+2025-12-07 20:38:59,738 - INFO - Ticket 2 deleted
+2025-12-07 20:38:59,738 - INFO - --- Ticket Management ---
+2025-12-07 20:39:02,849 - INFO - --- Airline Management ---
+2025-12-07 20:39:04,848 - INFO - --- Passenger Management ---
+2025-12-07 20:39:06,393 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-07 20:39:06,394 - INFO - ID: 2, Name: Rauf, Email: Aaashvshety, Phone: 656227
+2025-12-07 20:39:06,394 - INFO - ID: 4, Name: ftfw, Email: ragwtr, Phone: ertwgr
+2025-12-07 20:39:06,394 - INFO - ID: 5, Name: 4ertqgt, Email: wg5w5, Phone: wg5
+2025-12-07 20:39:06,394 - INFO - ID: 6, Name: Rayf, Email: Afadffgsgh, Phone: wrssdth
+2025-12-07 20:39:06,394 - INFO - --- Passenger Management ---
+2025-12-07 20:39:15,153 - INFO - Passenger 12 deleted
+2025-12-07 20:39:15,153 - INFO - --- Passenger Management ---
+2025-12-07 20:53:04,143 - INFO - --- Airline Management ---
+2025-12-07 20:53:07,672 - INFO - --- Aircraft Management ---
+2025-12-07 20:53:15,287 - INFO - Aircraft added: ID: 12, Model: Business, Capacity: 123, Passengers: 0
+2025-12-07 20:53:15,287 - INFO - --- Aircraft Management ---
+2025-12-07 20:53:18,530 - INFO - ID: 3, Model: special, Capacity: 50, Passengers: 0, Current passengers: 0
+2025-12-07 20:53:18,530 - INFO - ID: 1, Model: business, Capacity: 52, Passengers: 0, Current passengers: 0
+2025-12-07 20:53:18,530 - INFO - ID: 12, Model: Business, Capacity: 123, Passengers: 0, Current passengers: 0
+2025-12-07 20:53:18,530 - INFO - --- Aircraft Management ---
+2025-12-07 20:53:28,414 - INFO - Aircraft 1234 deleted
+2025-12-07 20:53:28,414 - INFO - --- Aircraft Management ---
+2025-12-07 20:56:34,805 - INFO - --- Airline Management ---
+2025-12-07 20:56:37,037 - INFO - --- Aircraft Management ---
+2025-12-07 20:56:41,259 - ERROR - Aircraf with ID 12345 not found
+2025-12-07 20:56:41,259 - INFO - --- Aircraft Management ---
+2025-12-07 20:56:45,454 - INFO - ID: 3, Model: special, Capacity: 50, Passengers: 0, Current passengers: 0
+2025-12-07 20:56:45,454 - INFO - ID: 1, Model: business, Capacity: 52, Passengers: 0, Current passengers: 0
+2025-12-07 20:56:45,454 - INFO - ID: 12, Model: Business, Capacity: 123, Passengers: 0, Current passengers: 0
+2025-12-07 20:56:45,455 - INFO - --- Aircraft Management ---
+2025-12-07 20:56:49,654 - INFO - Aircraft 12 deleted
+2025-12-07 20:56:49,654 - INFO - --- Aircraft Management ---
+2025-12-07 20:56:57,243 - INFO - --- Airline Management ---
+2025-12-07 20:56:58,797 - INFO - --- Ticket Management ---
+2025-12-07 20:57:10,015 - ERROR - Passenger ID 1234567 not found!
+2025-12-07 20:57:10,015 - INFO - --- Ticket Management ---
+2025-12-07 21:06:04,930 - INFO - --- Airline Management ---
+2025-12-07 21:06:09,753 - INFO - --- Ticket Management ---
+2025-12-07 21:06:10,958 - WARNING - Invalid option!
+2025-12-07 21:06:10,958 - INFO - --- Ticket Management ---
+2025-12-07 21:06:21,977 - ERROR - Passenger ID 123456 not found!
+2025-12-07 21:06:21,977 - INFO - --- Ticket Management ---
+2025-12-07 21:08:19,781 - INFO - --- Airline Management ---
+2025-12-07 21:08:21,755 - INFO - --- Flight Management ---
+2025-12-07 21:08:30,846 - ERROR - Aircraft ID 123456 not found!
+2025-12-07 21:08:30,846 - INFO - --- Flight Management ---
+2025-12-07 21:09:25,729 - INFO - Flight 1 deleted
+2025-12-07 21:09:25,729 - INFO - --- Flight Management ---
+2025-12-07 21:09:30,416 - ERROR - Flight ID 23456 not found!
+2025-12-07 21:09:30,416 - INFO - --- Flight Management ---
+2025-12-07 21:09:32,590 - INFO - --- Airline Management ---
+2025-12-07 21:09:35,101 - INFO - --- Passenger Management ---
+2025-12-07 21:09:36,844 - INFO - ID: 1, Name: Rauf, Email: raaufatyt@srfyr, Phone: 546333563778
+2025-12-07 21:09:36,844 - INFO - ID: 2, Name: Rauf, Email: Aaashvshety, Phone: 656227
+2025-12-07 21:09:36,844 - INFO - ID: 4, Name: ftfw, Email: ragwtr, Phone: ertwgr
+2025-12-07 21:09:36,845 - INFO - ID: 5, Name: 4ertqgt, Email: wg5w5, Phone: wg5
+2025-12-07 21:09:36,845 - INFO - ID: 6, Name: Rayf, Email: Afadffgsgh, Phone: wrssdth
+2025-12-07 21:09:36,845 - INFO - --- Passenger Management ---
+2025-12-07 21:09:41,231 - ERROR - Passenger with ID 12345 not found
+2025-12-07 21:09:41,231 - INFO - --- Passenger Management ---
+2025-12-07 21:17:07,487 - INFO - --- Airline Management ---
+2025-12-07 21:17:09,873 - INFO - --- Aircraft Management ---
+2025-12-07 21:23:41,077 - INFO - --- Airline Management ---
+2025-12-07 21:23:46,115 - INFO - --- Flight Management ---
+2025-12-07 21:23:48,112 - INFO - ID: 3, frwg->wrfser, Aircraft: 1
+2025-12-07 21:23:48,113 - INFO - --- Flight Management ---
+2025-12-07 21:23:56,008 - ERROR - Aircraft ID erfc not found!
+2025-12-07 21:23:56,008 - INFO - --- Flight Management ---
+2025-12-07 21:25:19,582 - INFO - --- Airline Management ---
+2025-12-07 21:25:23,276 - INFO - --- Flight Management ---
+2025-12-07 21:25:33,341 - ERROR - Aircraft ID asdfr not found!
+2025-12-07 21:25:33,341 - INFO - --- Flight Management ---
+2025-12-07 21:31:36,216 - INFO - --- Airline Management ---
+2025-12-07 21:35:49,303 - INFO - Exiting...
+2025-12-07 21:35:53,906 - INFO - --- Airline Management ---
+2025-12-07 21:35:57,374 - INFO - --- Aircraft Management ---
+2025-12-07 21:35:59,519 - INFO - ID: 3, Model: special, Capacity: 50, Passengers: 0, Current passengers: 0
+2025-12-07 21:35:59,520 - INFO - ID: 1, Model: business, Capacity: 52, Passengers: 0, Current passengers: 0
+2025-12-07 21:35:59,520 - INFO - --- Aircraft Management ---
+2025-12-07 21:40:53,485 - INFO - Passenger removed. Current passengers: 0
+2025-12-07 21:40:53,486 - INFO - --- Aircraft Management ---
+2025-12-07 21:41:03,032 - INFO - Passenger added. Current passengers: 1
+2025-12-07 21:41:03,032 - INFO - --- Aircraft Management ---
+2025-12-07 21:41:09,925 - INFO - Passenger added. Current passengers: 1
+2025-12-07 21:41:09,925 - INFO - --- Aircraft Management ---
+2025-12-07 22:00:44,974 - INFO - --- Airline Management ---
+2025-12-07 22:00:45,985 - INFO - Exiting...
+2025-12-07 22:05:39,094 - INFO - --- Airline Management ---
+2025-12-07 22:05:57,912 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:28,773 - INFO - Aircraft added: ID: 12, Model: Business, Capacity: 123, Passengers: 0
+2025-12-07 22:06:28,773 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:28,774 - WARNING - Invalid option!
+2025-12-07 22:06:28,774 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:28,775 - WARNING - Invalid option!
+2025-12-07 22:06:28,775 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:28,776 - WARNING - Invalid option!
+2025-12-07 22:06:28,776 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:28,777 - WARNING - Invalid option!
+2025-12-07 22:06:28,777 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:28,778 - WARNING - Invalid option!
+2025-12-07 22:06:28,778 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:28,779 - WARNING - Invalid option!
+2025-12-07 22:06:28,779 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:28,780 - WARNING - Invalid option!
+2025-12-07 22:06:28,780 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:38,839 - ERROR - Aircraft ID 1 already exists!
+2025-12-07 22:06:38,839 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:43,173 - ERROR - Aircraft ID 12 already exists!
+2025-12-07 22:06:43,174 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:46,400 - INFO - ID: 3, Model: special, Capacity: 50, Passengers: 0, Current passengers: 0
+2025-12-07 22:06:46,400 - INFO - ID: 1, Model: business, Capacity: 52, Passengers: 0, Current passengers: 0
+2025-12-07 22:06:46,401 - INFO - ID: 12, Model: Business, Capacity: 123, Passengers: 0, Current passengers: 0
+2025-12-07 22:06:46,401 - INFO - --- Aircraft Management ---
+2025-12-07 22:06:56,451 - INFO - Aircraft added: ID: 13, Model: Business, Capacity: 12, Passengers: 0
+2025-12-07 22:06:56,451 - INFO - --- Aircraft Management ---
+2025-12-07 22:17:13,885 - INFO - ID: 3, Model: special, Capacity: 50, Passengers: 0, Current passengers: 0
+2025-12-07 22:17:13,886 - INFO - ID: 1, Model: business, Capacity: 52, Passengers: 0, Current passengers: 0
+2025-12-07 22:17:13,886 - INFO - ID: 12, Model: Business, Capacity: 123, Passengers: 0, Current passengers: 0
+2025-12-07 22:17:13,886 - INFO - ID: 13, Model: Business, Capacity: 12, Passengers: 0, Current passengers: 0
+2025-12-07 22:17:13,886 - INFO - --- Aircraft Management ---
+2025-12-07 23:03:18,658 - INFO - --- Airline Management ---
+2025-12-07 23:03:21,250 - INFO - Exiting...
