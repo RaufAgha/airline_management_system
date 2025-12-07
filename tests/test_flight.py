@@ -41,7 +41,11 @@ class TestFlightRepository(unittest.TestCase):
 
     def test_create_and_read(self):
         flight = Flight(None, "Baku", "Istanbul", "2025-11-12 08:00", "2025-11-12 10:00", "AC123")
+<<<<<<< HEAD
         fid = self.repo.create_flight(flight)
+=======
+        fid = self.repo.create_flight(flight) 
+>>>>>>> e6117d3378075bac6133ff2fe9f6ee053617e09b
         flights = self.repo.read_all()
         self.assertEqual(len(flights), 1)
         self.assertEqual(flights[0].flight_id, fid)
@@ -50,8 +54,13 @@ class TestFlightRepository(unittest.TestCase):
 
     def test_delete(self):
         flight = Flight(None, "Paris", "London", "2025-11-13 09:00", "2025-11-13 10:30", "AC124")
+<<<<<<< HEAD
         fid = self.repo.create_flight(flight)
         self.repo.delete_flight(fid)
+=======
+        fid = self.repo.create_flight(flight)  
+        self.repo.delete_flight(fid)           
+>>>>>>> e6117d3378075bac6133ff2fe9f6ee053617e09b
         flights = self.repo.read_all()
         self.assertTrue(all(f.flight_id != fid for f in flights))
 

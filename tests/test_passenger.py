@@ -38,7 +38,11 @@ class TestPassengerRepository(unittest.TestCase):
 
     def test_create_and_read(self):
         passenger = Passenger(None, "John Doe", "john@example.com", "123456789")
+<<<<<<< HEAD
         pid = self.repo.create_passenger(passenger)
+=======
+        pid = self.repo.create_passenger(passenger)  
+>>>>>>> e6117d3378075bac6133ff2fe9f6ee053617e09b
         passengers = self.repo.read_all()
         self.assertEqual(len(passengers), 1)
         self.assertEqual(passengers[0].passenger_id, pid)
@@ -47,8 +51,13 @@ class TestPassengerRepository(unittest.TestCase):
 
     def test_delete(self):
         passenger = Passenger(None, "Jane Doe", "jane@example.com", "987654321")
+<<<<<<< HEAD
         pid = self.repo.create_passenger(passenger)
         self.repo.delete_passenger(pid)
+=======
+        pid = self.repo.create_passenger(passenger) 
+        self.repo.delete_passenger(pid)              
+>>>>>>> e6117d3378075bac6133ff2fe9f6ee053617e09b
         passengers = self.repo.read_all()
         self.assertTrue(all(p.passenger_id != pid for p in passengers))
 
