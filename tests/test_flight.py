@@ -12,14 +12,17 @@ class TestFlightRepository(unittest.TestCase):
     def setUpClass(cls):
         # Əvvəlki test database-i sil
         if os.path.exists(TEST_DB):
-            os.remove(TEST_DB)
+            try:
+                os.remove(TEST_DB)
+            except PermissionError:
+                print(f"Warning: could not remove {TEST_DB} (in use). Tests will attempt to reuse/clean it.")
         cls.conn = SqliteConnection.get_instance(TEST_DB)
         cls.repo = FlightRepository()
 
-        # Flight cədvəli
+        # Flight cədvəlini yarat
         cur = cls.conn.cursor()
         cur.execute("""
-        CREATE TABLE flights (
+        CREATE TABLE IF NOT EXISTS flights (
             flight_id INTEGER PRIMARY KEY AUTOINCREMENT,
             origin TEXT NOT NULL,
             destination TEXT NOT NULL,
@@ -30,21 +33,27 @@ class TestFlightRepository(unittest.TestCase):
         """)
         cls.conn.commit()
 
+    def setUp(self):
+        # Hər testdən əvvəl flights cədvəlini təmizlə
+        cur = self.conn.cursor()
+        cur.execute("DELETE FROM flights")
+        self.conn.commit()
+
     def test_create_and_read(self):
         flight = Flight(None, "Baku", "Istanbul", "2025-11-12 08:00", "2025-11-12 10:00", "AC123")
-        fid = self.repo.create_flight(flight)  # <- dəyişiklik buradadır
+        fid = self.repo.create_flight(flight)
         flights = self.repo.read_all()
         self.assertEqual(len(flights), 1)
         self.assertEqual(flights[0].flight_id, fid)
         self.assertEqual(flights[0].origin, "Baku")
+        self.assertEqual(flights[0].destination, "Istanbul")
 
     def test_delete(self):
         flight = Flight(None, "Paris", "London", "2025-11-13 09:00", "2025-11-13 10:30", "AC124")
-        fid = self.repo.create_flight(flight)  # <- dəyişiklik buradadır
-        self.repo.delete_flight(fid)           # <- və burada
+        fid = self.repo.create_flight(flight)
+        self.repo.delete_flight(fid)
         flights = self.repo.read_all()
-        for f in flights:
-            self.assertNotEqual(f.flight_id, fid)
+        self.assertTrue(all(f.flight_id != fid for f in flights))
 
 if __name__ == "__main__":
     unittest.main()

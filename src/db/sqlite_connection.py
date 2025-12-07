@@ -1,17 +1,32 @@
 import sqlite3
 
 class SqliteConnection:
-    _instance = None
+    # Allow one connection instance per database path to avoid tests/CLI sharing the wrong DB
+    _instances = {}
 
     def __init__(self, db_path="airline.db"):
-        self.conn = sqlite3.connect(db_path)
+        self.db_path = db_path
+        # Increase timeout to reduce 'database is locked' errors under contention
+        # Allow cross-thread use in case caller uses threads (check_same_thread=False)
+        # Note: disabling check_same_thread transfers responsibility for thread-safety to the caller.
+        self.conn = sqlite3.connect(db_path, timeout=30.0, check_same_thread=False)
         self.conn.row_factory = sqlite3.Row
+        # Enforce foreign key constraints and enable WAL for better concurrency
+        try:
+            self.conn.execute("PRAGMA foreign_keys = ON")
+            # Enable Write-Ahead Logging to reduce write lock contention
+            self.conn.execute("PRAGMA journal_mode = WAL")
+            # Use a reasonable synchronous level for performance
+            self.conn.execute("PRAGMA synchronous = NORMAL")
+        except Exception:
+            pass
 
     @classmethod
     def get_instance(cls, db_path="airline.db"):
-        if cls._instance is None:
-            cls._instance = cls(db_path)
-        return cls._instance
+        # Return a cached instance for the requested db_path, create if missing
+        if db_path not in cls._instances:
+            cls._instances[db_path] = cls(db_path)
+        return cls._instances[db_path]
 
     def cursor(self):
         return self.conn.cursor()
@@ -19,10 +34,9 @@ class SqliteConnection:
     def commit(self):
         self.conn.commit()
 
-    # ----------------- init_db funksiyası -----------------
     def init_db(self):
         cur = self.conn.cursor()
-        # Aircraft table
+
         cur.execute("""
         CREATE TABLE IF NOT EXISTS aircraft (
             aircraft_id TEXT PRIMARY KEY,
@@ -30,7 +44,7 @@ class SqliteConnection:
             capacity INTEGER NOT NULL
         )
         """)
-        # Flight table
+
         cur.execute("""
         CREATE TABLE IF NOT EXISTS flights (
             flight_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -42,7 +56,7 @@ class SqliteConnection:
             FOREIGN KEY (aircraft_id) REFERENCES aircraft(aircraft_id)
         )
         """)
-        # Passenger table
+
         cur.execute("""
         CREATE TABLE IF NOT EXISTS passengers (
             passenger_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -51,7 +65,7 @@ class SqliteConnection:
             phone TEXT NOT NULL
         )
         """)
-        # Ticket table
+
         cur.execute("""
         CREATE TABLE IF NOT EXISTS tickets (
             ticket_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -65,6 +79,8 @@ class SqliteConnection:
         """)
         self.conn.commit()
 
-
-import logging
-logger = logging.getLogger(__name__)
+    def close(self):
+        try:
+            self.conn.close()
+        except Exception:
+            pass

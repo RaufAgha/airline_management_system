@@ -10,16 +10,18 @@ class TestTicketRepository(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        # Əvvəlki test database-i sil
         if os.path.exists(TEST_DB):
-            os.remove(TEST_DB)
+            try:
+                os.remove(TEST_DB)
+            except PermissionError:
+                print(f"Warning: could not remove {TEST_DB} (in use). Tests will attempt to reuse/clean it.")
         cls.conn = SqliteConnection.get_instance(TEST_DB)
         cls.repo = TicketRepository()
 
         cur = cls.conn.cursor()
-        # Flight və Passenger cədvəlləri Ticket üçün lazımdır
+        # Lazımi cədvəllər
         cur.execute("""
-        CREATE TABLE flights (
+        CREATE TABLE IF NOT EXISTS flights (
             flight_id INTEGER PRIMARY KEY AUTOINCREMENT,
             origin TEXT NOT NULL,
             destination TEXT NOT NULL,
@@ -29,7 +31,7 @@ class TestTicketRepository(unittest.TestCase):
         )
         """)
         cur.execute("""
-        CREATE TABLE passengers (
+        CREATE TABLE IF NOT EXISTS passengers (
             passenger_id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT NOT NULL,
             email TEXT NOT NULL,
@@ -37,14 +39,14 @@ class TestTicketRepository(unittest.TestCase):
         )
         """)
         cur.execute("""
-        CREATE TABLE tickets (
+        CREATE TABLE IF NOT EXISTS tickets (
             ticket_id INTEGER PRIMARY KEY AUTOINCREMENT,
             flight_id INTEGER NOT NULL,
             passenger_id INTEGER NOT NULL,
             seat_number TEXT NOT NULL,
             price REAL NOT NULL
         )
-            """)
+        """)
         cls.conn.commit()
 
         # Test üçün Flight və Passenger əlavə edirik
@@ -54,9 +56,15 @@ class TestTicketRepository(unittest.TestCase):
         cls.passenger_id = cur.lastrowid
         cls.conn.commit()
 
+    def setUp(self):
+        # Hər testdən əvvəl tickets cədvəlini təmizlə
+        cur = self.conn.cursor()
+        cur.execute("DELETE FROM tickets")
+        self.conn.commit()
+
     def test_create_and_read(self):
         ticket = Ticket(None, self.flight_id, self.passenger_id, "12A", 100.0)
-        tid = self.repo.create_ticket(ticket)  # <- dəyişiklik
+        tid = self.repo.create_ticket(ticket)
         tickets = self.repo.read_all()
         self.assertEqual(len(tickets), 1)
         self.assertEqual(tickets[0].ticket_id, tid)
@@ -64,11 +72,10 @@ class TestTicketRepository(unittest.TestCase):
 
     def test_delete(self):
         ticket = Ticket(None, self.flight_id, self.passenger_id, "14B", 120.0)
-        tid = self.repo.create_ticket(ticket)  # <- dəyişiklik
-        self.repo.delete_ticket(tid)           # <- dəyişiklik
+        tid = self.repo.create_ticket(ticket)
+        self.repo.delete_ticket(tid)
         tickets = self.repo.read_all()
-        for t in tickets:
-            self.assertNotEqual(t.ticket_id, tid)
+        self.assertTrue(all(t.ticket_id != tid for t in tickets))
 
 if __name__ == "__main__":
     unittest.main()

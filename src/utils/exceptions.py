@@ -10,7 +10,4 @@ class InvalidInputError(Exception):
     """Raised when input data is invalid."""
     pass
 
-
-import logging
-logger = logging.getLogger(__name__)
     
